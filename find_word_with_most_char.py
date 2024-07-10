@@ -73,7 +73,7 @@ def main():
     # Calculate the word with the most occurrences of the specified character
     result_word = find_word_with_most_char(long_statement, input_letter)
     if result_word == None:
-        print(f"The no word with the letter '{input_letter}' characters is found!")
+        print(f"No word with the letter '{input_letter}' characters is found!")
     else:
         print(f"The word with the most '{input_letter}' characters is: {result_word}")
 
